@@ -1,0 +1,115 @@
+body{
+    background-color: #7AB2D3;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4a628a;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+li{
+    float: left;
+  }
+li img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 15px;
+    padding: 0 25px;
+}
+li a, .dropbtn {
+    display: inline-block;
+    color: #DFF2EB;
+    text-align: center;
+    padding: 28px 30px;
+    text-decoration: none;
+    margin: 0; 
+    font-size: 20px;
+    font-family: fantasy;
+}
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #8794aa;
+}
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #4a628a;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+  color: #DFF2EB;
+  padding: 18px 20px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 20px;
+}
+.dropdown-content a:hover {
+    background-color: #8794aa;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+  p{
+    margin-top: 5px;
+    margin-left: 5px;
+    color:#DFF2EB;
+  }
+  h1{
+    font-size: 60px;
+    color: whitesmoke;
+    font-weight: 800;
+    position: absolute;
+    margin: 100px 540px;
+    text-shadow: 0 0 25px #ee7a0d,
+                0 0 50px #ee7a0d,
+                0 0 10px #ee7a0d,
+                0 0 200px #ee7a0d,
+                0 0 250px #ee7a0d;
+  }
+.srch input[type=search]{
+    position:absolute;
+    margin-left: 430px;
+    width: 200px;
+    margin-top: 24px;
+    padding-left: 200px;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+  }
+
+.srch button {
+    float: right;
+    height: 34px;
+    padding: 6px 10px;
+    margin-left: 1275px;
+    margin-top: 24px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+  }
+  .srch button:hover {
+    background-color:#8794aa;
+    border: solid 1px black;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}

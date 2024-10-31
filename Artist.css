@@ -1,0 +1,82 @@
+div.ID {
+    margin: 100px 30px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 600px;
+    position: absolute;
+
+  }
+div.ID:hover {
+    border: 1px solid #777;
+  }
+div.ID img {
+    width: 400px;
+    height: 300px;
+    padding-left: 100px ;
+    margin-top: 0;
+    object-fit: contain;
+    border-radius: 0%;
+    position: relative;
+  }
+div.desc {
+    padding: 10px;
+    margin-left: 45px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    text-align: left;
+  }
+div.mini1{
+  float: right;
+  margin: 100px 850px;
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  border: 1px solid #ccc;
+}
+div.mini2{
+  float: right;
+  margin: 320px 850px;
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  border: 1px solid #ccc;
+}
+div.mini3{
+  float: right;
+  margin: 540px 850px;
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  border: 1px solid #ccc;
+}
+div.mini1 img{
+  width: 200px;
+  height: 150px;
+  padding-left: 100px ;
+  margin-top: 0;
+  object-fit: contain;
+  border-radius: 0%;
+}
+div.mini2 img{
+  width: 200px;
+  height: 150px;
+  padding-left: 100px ;
+  margin-top: 0;
+  object-fit: contain;
+  border-radius: 0%;
+}
+div.mini3 img{
+  width: 200px;
+  height: 150px;
+  padding-left: 100px ;
+  margin-top: 0;
+  object-fit: contain;
+  border-radius: 0%;
+}
+div.mini-desc{
+  padding: 10px;
+  margin-left: 140px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+  text-align: left;
+}
